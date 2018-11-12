@@ -39,7 +39,7 @@ read DOSETUPTWO
 if [[ $DOSETUPTWO =~ "y" ]] ; then
 
 moneybox-cli stop > /dev/null 2>&1
-wget https://github.com/MoneyBoxCoin/MBOX/releases/download/1.0.0/moneybox-cli -O /usr/local/bin/moneyboxd
+wget https://github.com/MoneyBoxCoin/MBOX/releases/download/1.0.0/moneyboxd -O /usr/local/bin/moneyboxd
 wget https://github.com/MoneyBoxCoin/MBOX/releases/download/1.0.0/moneybox-cli -O /usr/local/bin/moneybox-cli
 chmod +x /usr/local/bin/moneybox*
 
