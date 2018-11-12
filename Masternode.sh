@@ -94,4 +94,10 @@ echo "masternodeprivkey=$PRIVKEY" >> $CONF_DIR/$CONF_FILE
 
 moneyboxd -daemon
 
+echo ""
+echo "##########################"
+echo "YOUR IP = $IP:$PORT"
+echo "YOUR PRIVKEY = $PRIVKEY"
+echo "##########################"
+echo ""
 
